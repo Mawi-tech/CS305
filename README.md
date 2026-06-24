@@ -1,7 +1,16 @@
-Artemis Financial is a company the creates personalized financial plans such as investments, retirement, and insurance for its clients. The company wants to make their web application more modern. To do so they needed to ensure that all the data is protected while in transmission. Artemis Financial also wanted to make sure their code is as secure as possible.  What I believe I did well was ensure that the program had a proper error handling method and making sure the application had a secure hash route utilizing SHA-256 . 
-	Secure coding is vital because it helps protect the application from exploits and attacks like remote code execution or injection. These types of vulnerabilities can cause a lot of issues. It also helps build trust with clients. Clients want to feel like their information and data is secure. 	
-	The most stressful part of the project would be attempting to hide all the vulnerabilities, as it is tedious. The most helpful part of the project would be creating my own signed certificate. This showed me the process of creating certificates. 
-	I increased layers of security by enabling HTTPS to help with having secure communications between client and server. I added the SHA-256 hashing to help ensure that the data has not been compromised. I also validated input and made a method to handle errors. 
-	Some different ways I made sure that the code was function and secure was by verifying the web page was working on port 8443. This showed that the encryption was working. I checked to see if there were any more vulnerabilities by rerunning the dependency check report. 
-	Some different tools I used were the OWASP Dependency check to help scan for CVE vulnerabilities, AES SHA-256 hashing algorithm to make sure communications are encrypted, and a keystore to help enable https. 
-	I can show future employers how I utilize different techniques to ensure an application remains secure as possible. This can show future employers I know how to identify and fix vulnerabilities in an application. 
+# CS305: Software Security
+
+## Overview
+This project involved securing a web application for Artemis Financial, a company that builds personalized financial plans for its clients, including investments, retirement planning, and insurance. The goal was to modernize the application while ensuring all client data stayed protected, both in transit and at rest.
+
+## Approach
+Security was layered in through HTTPS for encrypted client-server communication, SHA-256 hashing to verify data integrity, and a self-signed certificate to enable a secure connection on port 8443. The OWASP Dependency Check tool was used to scan for known CVE vulnerabilities, and any flagged dependencies were addressed before final delivery.
+
+## Reflection
+Secure coding protects an application from common exploits like remote code execution and injection attacks, which also helps build client trust. The most challenging part of the project was tracking down and addressing every vulnerability, since the process can be tedious, while the most rewarding part was learning how to create and apply a signed certificate. Verifying the application over port 8443 and rerunning the dependency check confirmed the encryption and security measures were working as intended.
+
+## Skills Demonstrated
+- Secure coding and vulnerability remediation
+- HTTPS and SHA-256 implementation
+- Dependency vulnerability scanning (OWASP)
+- Certificate creation and management
